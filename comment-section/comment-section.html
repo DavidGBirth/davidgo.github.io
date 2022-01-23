@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Mundo Animal</title>
+        <link rel="stylesheet" href="comment-section.css" />
+    </head>
+    <body>
+        <div class="container">
+            <section class="postation">
+                
+            </section>
+            <section class="comments">
+                <div>
+                    <label>Nome: </label>
+                    <input type="text" name="nome" id="nome" /><br />
+                </div>
+                <div>
+                    <label>Email: </label>
+                    <input type="email" name="email" id="email" /><br />
+                </div>
+                <div>
+                    <label>Comment: </label><br />
+                    <textarea name="comments" id="comments" cols="30" rows="10"></textarea><br />
+                
+                </div>
+                <button onclick="post()">Comentar</button>
+            </section>
+        </div>
+        <script type="text/javascript" src="comment-section.js" defer></script>
+    </body>
+</html>

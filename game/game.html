@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="game.css" />
+    </head>
+    <body>
+        <header>
+            <span>CrazyRace</span>
+        </header>
+        <div class="game">
+            <div class="menu">
+                <h2>Escolha uma modalidade:</h2>
+                <form>
+                    <div>
+                        <input type="radio" name="mode" value="10" />
+                        <label>Corrida rápida</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="mode" value="70" />
+                        <label>Grande Prêmio</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="mode" value="160"/>
+                        <label>Enduro</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="mode" value="none" />
+                        <label>Personalidado: </label>
+                        <input type="text" name="pers" placeholder="Digite o nº de voltas" />
+                    </div>
+                    <div>
+                        <button type="button" onclick="startRace()">Start</button>
+                        <button type="button" onclick="startRandom()">Random</button>
+                    </div>
+                </form>
+            </div>
+            <div class="result">
+                
+            </div>
+        </div>
+        <script type="text/javascript" src="game.js"></script>
+    </body>
+</html>

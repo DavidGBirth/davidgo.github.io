@@ -1,0 +1,43 @@
+body {
+    background: red;
+}
+
+.centerbox {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.container {
+    margin: 30px;
+    background: white;
+    border-radius: 10px;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+}
+
+section:first-child {
+    width: 99%;
+    margin: 10px;
+}
+
+section:first-child img {
+    margin-top: 10px;
+}
+
+.info li {
+    list-style: none;
+}
+
+.centerbox img {
+    width: 184px;
+    height: 274px;
+}
+
+.orgText {
+    width: 60%;
+}

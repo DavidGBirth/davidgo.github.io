@@ -1,0 +1,252 @@
+@font-face {
+    font-family: "Raleway";
+    src: url('fonts/raleway.woff2') format('woff2');
+         url('fonts/raleway.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+nav {
+    background: #535151;
+    border: 1px solid black;
+    display: flex;
+    width: 84.2%;
+    height: 70px;
+    color: #D3D3D3;
+    padding-left: 200px;
+    font-family: Raleway;
+}
+
+.logo h1 {
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 5px;
+    font-weight: 900;
+}
+
+.menu ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 25px;
+    font-size: 15px; 
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #D3D3D3;
+}
+
+.menu ul li a:hover {
+    color: lightblue;
+}
+
+.offer {
+    background-image: url(imgs/woman.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 601px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background: rgba(255, 255, 255, 0.5);
+    width: 450px;
+    height: 200px;
+}
+
+.box h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #303132;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 35px;
+    font-weight: 900;
+}
+
+.box button {
+    border: 1px solid black;
+    background: #303132;
+    color: white;
+    width: 185px;
+    height: 40px;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+}
+
+.box button:hover {
+    background: #FFFFFF;
+    color: #000000;
+}
+
+.frete {
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    background: #E4E4E4;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: Raleway;
+    font-size: 15px;
+}
+
+.essentials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 96%;
+    height: auto;
+    padding: 25px;
+    color: #535151;
+}
+
+.essentials h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    margin-bottom: -20px;
+}
+
+.essentials span {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.essentials h3 {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 590;
+    letter-spacing: 5px;
+    margin-top: 20px;
+}
+
+.itens {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.itens div {
+    background: lightgray;
+    width: 299px;
+    height: 410px;
+}
+
+#itemone {
+    background-image: url(imgs/item1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+#itemtwo {
+    background-image: url(imgs/item2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 25px;
+}
+
+#itemtwo h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    text-transform: none;
+    margin-top: 60px;
+    color: #303132;
+    
+}
+
+#itemtwo h2:hover {
+    color: #535151;
+}
+
+#itemthree {
+    background-image: url(imgs/item3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background: #535151;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Raleway;
+    color: #FFFFFF;;
+}
+
+footer h5 {
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+footer input {
+    background: #D3D3D3;
+    color: black;
+    height: 30px;
+    width: 300px;
+    border: none;
+    margin-bottom: 5px;
+}
+
+footer button {
+    background: #FFFFFF;
+    color: #303132;
+    height: 30px;
+    width: 300px;
+    border: none;
+}
+
+footer button:hover {
+    background: #303132;
+    color: #FFFFFF;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer div:first-child, footer div:nth-child(2), footer div:nth-child(3) {
+    width: 33%;
+    height: auto;
+    text-align: center;
+}
+
+footer div:nth-child(3) {
+    font-size: 15px;
+}
+
+footer div:nth-child(4), footer div:last-child {
+    margin-top: 25px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 15px;
+}

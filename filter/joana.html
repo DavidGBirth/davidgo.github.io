@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="joana.css" />
+	</head>
+	<body>
+		<div class="title">
+			<h1>Lady Bug's Fashion</h1>
+		</div>
+		<div class="sides">
+			<div class="left-side">
+				<div class="wrapper">
+					<h2>Cadastrar Recebível</h2>
+					<form>
+						<div>
+							<label for="name">Nome: </label>
+							<input type="text" name="name" id="name" />
+						</div>
+						<div>
+							<label>Data de Vencimento: </label>
+							<input type="date" name="venc" id="venc" required pattern="\d{4}-\d{2}-\d{2}">
+						</div>
+						<div>
+							<label>Valor da Compra: </label>
+							<input type="text" name="valueC" id="valueC" />
+						</div>
+						<button type="button" onclick="addTable()">Cadastrar</button>
+					</form>
+				</div>
+				<div class="wrapper">
+					<h2>Filtrar por Data</h2>
+					<form>
+						<div>
+							<label for="datInicio">Data Início: </label>
+							<input type="date" name="datInicio" id="datInicio" required pattern="\d{4}-\d{2}-\d{2}">
+							
+						</div>
+						<div>
+							<label for="datFim">Data Fim: </label>
+							<input type="date" name="datFim" id="datFim" required pattern="\d{4}-\d{2}-\d{2}">
+						</div>
+						<button type="button" onclick="filterByDate()">Filtrar</button>
+					</form>
+				</div>
+				<div class="wrapper">
+					<h2>Filtrar por Valor</h2>
+					<form>
+						<div>
+							<label for="valInicio">Valor Início: </label>
+							<input type="text" name="valInicio" id="valInicio" />
+							
+						</div>
+						<div>
+							<label for="valFim">Data Fim: </label>
+							<input type="text" name="valFim" id="valFim" />
+						</div>
+						<button type="button" onclick="filterByValue()">Filtrar</button>
+					</form>
+				</div>
+				<table>
+					<thead>		
+					</thead>
+					<tbody>
+						
+					</tbody>
+				</table>
+			</div>
+			<div class="right-side">
+				<table>
+					<thead class="right-head">
+						
+					</thead>
+					<tbody class="right-body">
+						
+					</tbody>
+				</table>
+				<div class="menu">
+					
+				</div>
+				<div class="otherOptions">
+					
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="joana.js"></script>
+	</body>
+</html>

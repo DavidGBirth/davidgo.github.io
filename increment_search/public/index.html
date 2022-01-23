@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Buscar Usuário</title>
+		<link rel="stylesheet" type="text/css" href="index.css" />
+	</head>
+	<body>
+		<div class="container">
+			<p>Insira qualquer um dos dados para fazer a busca no sistema:</p>
+			<form>
+				<div>
+					<label>ID: </label>
+					<input type="text" name="id" />
+				</div>
+				<div>
+					<label>Nome: </label>
+					<input type="text" name="nome" /><br />
+					<select name="names" id="names" onChange="updateName()">
+						
+					</select>
+				</div>
+				<div>
+					<label>E-mail: </label>
+					<input type="email" name="email" /><br />
+					<select name="emails" id="emails" onChange="updateEmail()"></select>
+				</div>
+				<button type="button" onclick="clicked()">Buscar</button>
+			</form>
+			
+		</div>
+		<script type="text/javascript" src="index.js"></script>
+	</body>
+</html>

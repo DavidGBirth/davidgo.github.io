@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "Chelsea Market";
+    src: url('fonts/ChelseaMarket.woff2') format('woff2');
+         url('fonts/ChelseaMarket.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Proxima Nova";
+    src: url('fonts/ProximaNova.woff2') format('woff2');
+         url('fonts/ProximaNova.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.opening {
+    color: #8FD3E8;
+}
+
+.opening img {
+    width: 56px;
+    height: 56px;
+}
+
+h1 {
+    font-family: "Chelsea Market";
+    margin-top: 0px;
+    margin-bottom: 0px;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: "Proxima Nova";
+    margin-top: 0px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 100px;
+    font-family: "Proxima Nova";
+}
+
+nav ul li:hover {
+    color: #8FD3E8;
+}
+
+.principal {
+    background-image: url(imgs/dog.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 660px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.principal h3 {
+    font-family: "Chelsea Market";
+    font-size: 65px;
+    width: 450px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.principal p {
+    font-family: "Proxima Nova";
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.essentials h3 {
+    font-family: "Chelsea Market";
+    color: #8FD3E8;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.essentials p {
+    font-family: "Proxima Nova";
+    color: #000000;
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+.itens {
+    display: flex;
+    margin: 0 -15px;
+    color: #8FD3E8;
+}
+
+.itens div {
+    margin: 0 15px;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+}
+
+.itens img {
+    width: 56px;
+    height: 56px;    
+}
+
+.itens h4 {
+    font-family: "Chelsea Market";
+    color: #8FD3E8;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.itens p {
+    font-family: "Proxima Nova";
+    color: #000000;
+}
+
+.itens button {
+    background: #8FD3E8;
+    color: #FFFFFF;
+    height: 30px;
+    width: 100px;
+    border: none;
+}

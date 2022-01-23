@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css2?family=Coustard:ital,wght@0,400;0,700;1,400);
+@import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lato";
+    background: #EBEBEB;
+}
+
+h1 {
+    font-family: "Coustard";
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #80471C;
+}
+
+fieldset {
+    width: 500px;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+
+legend, button {
+    font-family: "Coustard";
+}
+
+p {
+    font-size: 24px;
+}
+
+.prepedido button {
+    border: none;
+    border-radius: 5%;
+    font-family: "Coustard";
+    background: #80471C;
+    color: #FFFFFF;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+}
+
+.prepedido {
+    display: flex;
+    margin-left: 25px;
+    gap: 15px;
+    width: 550px;
+    align-items: center;
+}
+
+.final {
+    margin-top: 25px;
+    display: flex;
+    width: 550px;
+    align-items: center;
+    justify-content: center;
+}
+
+#submit {
+    border: none;
+    border-radius: 5%;
+    font-family: "Coustard";
+    background: green;
+    color: #FFFFFF;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+}

@@ -1,0 +1,22 @@
+body {
+    background: lightgray;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.info li, .flags li {
+    list-style: none;
+}
+
+.flags li {
+    display: inline;
+}
+
+.flags li img {
+    height: 50px;
+    width: 75px;
+    margin-right: 30px;
+}

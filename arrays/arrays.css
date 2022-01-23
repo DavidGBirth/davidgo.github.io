@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+
+.numbers, form, header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	width: 400px;
+	height: 200px;
+	background: lightblue;
+	border-radius: 5%;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	color: #FFFFFF;
+	font-size: 28px;
+	font-family: Concert One;
+	width: 400px;
+	height: 100px;
+	background: lightblue;
+	border-radius: 5%;
+	font-weight: 700;
+}
+
+.buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	margin-top: 20px;
+}
+
+.buttons button {
+	display: flex;
+	justify-content: center;
+	color: #FFFFFF;
+	background: #00FF00;
+	border: none;
+	font-family: Concert One;
+	font-size: 24px;
+	width: 100px;
+	height: 30px;
+	border-radius: 10%;
+}
+
+.result {
+	display: flex;
+	gap: 20px;
+}
+
+.result div {
+	padding: 20px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="cardapio.css" />
+    </head>
+    <body>
+        <h1>Huum... Burgueria</h1>
+        <form>
+            <fieldset>
+                <legend>Escolha o tipo de pão:</legend>
+                <div>
+                    <input type="radio" id="fr" name="pao" value="fr" />
+                    <label>Pão francês...............R$ 3,00</label>
+                </div>
+                <div>
+                    <input type="radio" id="brio" name="pao" value="brio" />
+                    <label>Pão de Brioche...............R$ 6,00</label>
+                </div>
+                <div>
+                    <input type="radio" id="aus" name="pao" value="aus" />
+                    <label>Pão Australiano...............R$ 8,00</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Escolha o tipo de hambúrguer:</legend>
+                <div>
+                    <input type="radio" id="cost" name="hamb" value="cost" />
+                    <label>Hamburguer de costela...............R$ 10,00</label>
+                </div>
+                <div>
+                    <input type="radio" id="vegan" name="hamb" value="vegan" />
+                    <label>Hamburguer Vegano...............R$ 12,00</label>
+                </div>
+                <div>
+                    <input type="radio" id="pic" name="hamb" value="pic" />
+                    <label>Hamburguer de picanha...............R$ 13,00</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Escolha o tipo de salada:</legend>
+                <div>
+                    <input type="radio" id="alf" name="salada" value="alf" />
+                    <label>Alface...............R$ 1,50</label>
+                </div>
+                <div>
+                    <input type="radio" id="tom" name="salada" value="tom" />
+                    <label>Tomate...............R$ 1,50</label>
+                </div>
+                <div>
+                    <input type="radio" id="nosal" name="salada" value="nosal" />
+                    <label>Sem salada...............R$ 0,00</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Escolha o tipo de queijo:</legend>
+                <div>
+                    <input type="radio" id="muss" name="queijo" value="muss" />
+                    <label>Mussarela...............R$ 3,00</label>
+                </div>
+                <div>
+                    <input type="radio" name="queijo" value="prat" />
+                    <label>Prato...............R$ 3,00</label>
+                </div>
+                <div>
+                    <input type="radio" name="queijo" value="ched" />
+                    <label>Cheddar...............R$ 5,00</label>
+                </div>
+            </fieldset>
+            <div class="prepedido">
+                <button type="button" id="buttonRequest" onclick="othertest()">Fazer Pedido</button>
+            </div>
+            <div class="final">
+                
+            </div>
+        </form>
+        <script type="text/javascript" src="cardapio.js"></script>
+    </body>
+</html>
