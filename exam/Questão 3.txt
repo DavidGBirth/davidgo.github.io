@@ -1,0 +1,55 @@
+3ª Questão
+
+Lista de presença da assembléia do condomínio Park das Estrelas.
+
+Materiais:
+	const moradores = [{
+	  nome: "João",
+	  torre: 1,
+	  apartamento: 01,
+	  andar: 0
+	},
+	{
+	  nome: "Lucas",
+	  torre: 1,
+	  apartamento: 02,
+	  andar: 0
+	},
+	{
+	  nome: "Victória",
+	  torre: 1,
+	  apartamento: 11,
+	  andar: 1
+	},{
+	  nome: "Miguel",
+	  torre: 1,
+	  apartamento: 12,
+	  andar: 1
+	},{
+	  nome: "Alípio",
+	  torre: 2,
+	  apartamento: 01,
+	  andar: 0
+	},{
+	  nome: "Lorena",
+	  torre: 2,
+	  apartamento: 02,
+	  andar: 0
+	},{
+	  nome: "Jairo",
+	  torre: 2,
+	  apartamento: 11,
+	  andar: 1
+	},{
+	  nome: "Jerusa",
+	  torre: 2,
+	  apartamento: 12,
+	  andar: 1
+	}];
+
+
+Desafio:
+
+	Crie uma tabela que liste os moradores do condomínio Park das Estrelas e associe um botão para cada morador.
+	Após clicar no botão associado ao morador adicione-o em uma lista de moradores presentes.
+	Adicione um botão de fechamento da lista de presença, ao clicá-lo exiba uma tabela apenas com os moradores presentes.
